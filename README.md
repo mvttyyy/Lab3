@@ -148,7 +148,7 @@ Process finished with exit code 0
   </tfoot>
   <tbody>
     <tr>
-      <td id="a0"><a href="" class="el_package">org.example</a></td>
+      <td id="a0"><a href="org.example/index.html" class="el_package">org.example</a></td>
       <td class="bar" id="b0">
         <img src="" width="22" height="10" title="91" alt="91">
         <img src="" width="97" height="10" title="387" alt="387">
