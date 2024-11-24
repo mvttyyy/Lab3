@@ -150,13 +150,9 @@ Process finished with exit code 0
     <tr>
       <td id="a0"><a href="org.example/index.html" class="el_package">org.example</a></td>
       <td class="bar" id="b0">
-        <img src="" width="22" height="10" title="91" alt="91">
-        <img src="" width="97" height="10" title="387" alt="387">
       </td>
       <td class="ctr2" id="c0">80%</td>
       <td class="bar" id="d0">
-        <img src="" width="23" height="10" title="5" alt="5">
-        <img src="" width="96" height="10" title="21" alt="21">
       </td>
       <td class="ctr2" id="e0">80%</td>
       <td class="ctr1" id="f0">7</td>
