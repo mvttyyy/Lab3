@@ -1,17 +1,30 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.ArrayList;
+import java.util.List;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class Main {
+
+    public static void main(String[] args) {
+        Color red = new Color(255, 0, 0, 0.8f);
+        Color green = new Color(0, 255, 0, 0.6f);
+        Color blue = new Color(0, 0, 255, 1.0f);
+
+        Shape rectangle1 = new Rectangle(4.0, 5.0, red);
+        Shape triangle1 = new Triangle(6.0, 8.0, 10.0, green);
+        Shape rectangle2 = new Rectangle(3.0, 6.0, blue);
+
+        ShapeDescriber describer = new ShapeDescriber();
+        describer.describe(rectangle1);
+        describer.describe(triangle1);
+        describer.describe(rectangle2);
+
+        List<Shape> shapes = new ArrayList<>();
+        shapes.add(rectangle1);
+        shapes.add(triangle1);
+        shapes.add(rectangle2);
+
+        ShapeRenderer renderer = new ShapeRenderer();
+        renderer.renderShapes(shapes);
     }
 }
