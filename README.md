@@ -111,62 +111,11 @@ Reprezentacja graficzna:
 
 Process finished with exit code 0
 
-<table class="coverage" cellspacing="0" id="coveragetable">
-  <thead>
-    <tr>
-      <td class="sortable" id="a" onclick="toggleSort(this)">Element</td>
-      <td class="down sortable bar" id="b" onclick="toggleSort(this)">Missed Instructions</td>
-      <td class="sortable ctr2" id="c" onclick="toggleSort(this)">Cov.</td>
-      <td class="sortable bar" id="d" onclick="toggleSort(this)">Missed Branches</td>
-      <td class="sortable ctr2" id="e" onclick="toggleSort(this)">Cov.</td>
-      <td class="sortable ctr1" id="f" onclick="toggleSort(this)">Missed</td>
-      <td class="sortable ctr2" id="g" onclick="toggleSort(this)">Cxty</td>
-      <td class="sortable ctr1" id="h" onclick="toggleSort(this)">Missed</td>
-      <td class="sortable ctr2" id="i" onclick="toggleSort(this)">Lines</td>
-      <td class="sortable ctr1" id="j" onclick="toggleSort(this)">Missed</td>
-      <td class="sortable ctr2" id="k" onclick="toggleSort(this)">Methods</td>
-      <td class="sortable ctr1" id="l" onclick="toggleSort(this)">Missed</td>
-      <td class="sortable ctr2" id="m" onclick="toggleSort(this)">Classes</td>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Total</td>
-      <td class="bar">91 of 478</td>
-      <td class="ctr2">80%</td>
-      <td class="bar">5 of 26</td>
-      <td class="ctr2">80%</td>
-      <td class="ctr1">7</td>
-      <td class="ctr2">36</td>
-      <td class="ctr1">19</td>
-      <td class="ctr2">93</td>
-      <td class="ctr1">2</td>
-      <td class="ctr2">23</td>
-      <td class="ctr1">1</td>
-      <td class="ctr2">7</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td id="a0"><a href="org.example/index.html" class="el_package">org.example</a></td>
-      <td class="bar" id="b0">
-        <img src="" width="22" height="10" title="91" alt="91">
-        <img src="" width="97" height="10" title="387" alt="387">
-      </td>
-      <td class="ctr2" id="c0">80%</td>
-      <td class="bar" id="d0">
-        <img src="" width="23" height="10" title="5" alt="5">
-        <img src="" width="96" height="10" title="21" alt="21">
-      </td>
-      <td class="ctr2" id="e0">80%</td>
-      <td class="ctr1" id="f0">7</td>
-      <td class="ctr2" id="g0">36</td>
-      <td class="ctr1" id="h0">19</td>
-      <td class="ctr2" id="i0">93</td>
-      <td class="ctr1" id="j0">2</td>
-      <td class="ctr2" id="k0">23</td>
-      <td class="ctr1" id="l0">1</td>
-      <td class="ctr2" id="m0">7</td>
-    </tr>
-  </tbody>
-</table>
+Zrzuty ekranu z wynikiem działania programu:
+![image](https://github.com/user-attachments/assets/22ce3096-faa1-492a-8e16-ea623113bab6)
+![image](https://github.com/user-attachments/assets/0396bcaa-4429-4781-bf7f-2496610cdd31)
+![image](https://github.com/user-attachments/assets/0ca50e0c-ec35-432f-8492-28e12904815c)
+![image](https://github.com/user-attachments/assets/ee265592-ee35-4d45-95ae-857fd3091d00)
+![Mateusz_Bolek_test](https://github.com/user-attachments/assets/33091258-caed-448a-990a-99d9cda4cb78)
+
+
